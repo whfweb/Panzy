@@ -15,7 +15,7 @@ sed -i 's/192.168.1.1/192.168.6.1/g' package/base-files/files/bin/config_generat
 # Modify WiFi ON
 sed -i 's/disabled=1/disabled=0/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 # Modify default SSID
-sed -i 's/ssid=OpenWrt/ssid=Panzy/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
+sed -i 's/ssid=OpenWrt/ssid=whfweb/g' package/kernel/mac80211/files/lib/wifi/mac80211.sh
 # Modify Automount
 \cp -rf package/Panzy/mount.hotplug package/system/fstools/files
 # Add tools
